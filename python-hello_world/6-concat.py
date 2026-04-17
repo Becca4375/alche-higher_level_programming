@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-str1 = "Python is an interpreted, interactive, object-oriented programming\
- language that combines remarkable power with very clear syntax"
-str2 = str[39:67] + str[107:112] + str[:6]
-print(str)
+str1 = "Holberton"
+str2 = "School"
+str1 = str1 + " " + str2
+print(f"Welcome to {str1}!")
