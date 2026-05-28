@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Defines a State class and Base instance."""
 
@@ -11,8 +10,8 @@ Base = declarative_base()
 
 class State(Base):
     """State class linked to the states table."""
+
     __tablename__ = "states"
 
-    id = Column(Integer, primary_key=True, nullable=False,
-                autoincrement=True)
+    id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(128), nullable=False)
